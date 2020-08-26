@@ -1,1 +1,1 @@
-SELECT * FROM APP_USER WHERE role_id  = 3;
+SELECT * FROM APP_USER WHERE role_id = 3;
