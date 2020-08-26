@@ -1,5 +1,11 @@
 package com.revature.dao;
 
-public class UserRepository {
+import java.util.Set;
+
+import com.revature.model.User;
+
+public class UserRepository implements CrudRepository<User>{
+	
+	
 
 }
