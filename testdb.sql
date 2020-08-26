@@ -48,7 +48,7 @@ CREATE TABLE study_set (
 
 CREATE TABLE study_set_card (
 	study_set_id serial REFERENCES study_set(study_set_id),
-	flashcard_id serial primary KEY 
+	flashcard_id serial primary KEY REFERENCES flashcard(flashcard_id)
 );
 
 
